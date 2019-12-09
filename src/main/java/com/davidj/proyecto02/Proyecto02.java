@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.davidj.proyecto02;
+package main.java.com.davidj.proyecto02;
 import java.util.Scanner;
 
 /**
@@ -20,6 +20,12 @@ public class Proyecto02 {
        cadena = console.nextLine();
        
        System.out.println(cadena);
+       
+       System.out.println("Resultado suma: " + suma(2, 2));
+   }
+   
+   public static int suma(int num1, int num2) {
+	   return num1 + num2;
    }
     
 }
